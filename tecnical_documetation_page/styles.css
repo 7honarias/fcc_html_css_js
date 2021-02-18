@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    line-height: 1.5;
+}
+
+header {
+    font-size: 1.8rem;
+    margin: 10px;
+    color: black;
+    display: block;
+}
+
+nav {
+    width: 300px;
+    top: 0;
+    left: 0;
+    display: block;
+    border-right: 3px solid #333;
+    height: 100%;
+    position: fixed;
+    min-width: 290px;
+}
+nav ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 88%;
+    padding: 0;
+}
+nav header {
+    text-align: center;
+}
+nav li {
+    border-top: 1px solid #000000;
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+main {
+    position: absolute;
+    display: block;
+    margin-left: 310px;
+    padding: 20px;
+}
+p {
+    margin: 1rem;
+}
+
+@media (max-width: 815px) {
+    nav ul {
+        border: 1px solid;
+        height: 201px;
+    }
+    nav {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        height: 270px;
+        max-height: 275;
+        border: none;
+        width: 100%;
+        margin: 0;
+        background-color: white;
+        border-bottom: 2px solid;
+        z-index: 1;
+    }
+    main {
+        position: relative;
+        margin-top: 270px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  
+    code {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }
