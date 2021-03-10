@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.item1 {
+    background:chocolate;
+    width: 100px;
+    height: 100px;
+}
+.item2 {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 850px){
+    .item1 {
+        border-radius: 50%;
+    }
+}
+@media (max-width: 650px){
+    .item2 {
+        opacity: 0.5;
+        margin: 50px;
+    }
+}

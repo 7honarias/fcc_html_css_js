@@ -1,0 +1,17 @@
+.container {
+    width: 30%;
+}
+
+.entrada {
+    width: 100%;
+}
+
+.salida {
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+    border: 1px dotted black;
+}
+.boton {
+    margin-top: 5px;
+}

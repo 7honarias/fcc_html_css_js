@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 500px;
+    background: gray;
+}
+
+.red {
+    width: 150px;
+    height: 150px;
+    background: red;
+}
+
+.blue {
+    width: 150px;
+    height: 150px;
+    background: blue;
+}
+
+.yellow {
+    width: 150px;
+    height: 150px;
+    background: yellow;
+}
